@@ -53,13 +53,24 @@ BTW, I searched the existing system ENV vars and Sitecore config, but didn’t s
 **Step 3**: Redeploy XM Cloud App (to load new env var)
  
 This will redeploy the current build to apply the new variable.
-The shortcut JSON view is now ready to use.
 
 ![screenshot of redeploy button](screenshots/06_Install-Redeploy.png "Redeploy XM")
 
+The shortcut is now ready to use. Give it a try! It will only appear for items having page layout.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ---
 
-# MISC
+# Related Tip
 
 I added the Query and Variables as part of the output for jumping to a GraphQL playground. Tip: choose a Launch IDE link in Sitecore’s Deploy App (below) which will give you the header credentials. Then Copy and Paste the query and variables over.
  
