@@ -9,6 +9,11 @@ Version 2 adds:
 - New diff feature
 - Added Review ribbon buttons to mimic context menu
 
+![screenshot of new ribbon](screenshots/Version2-Ribbon.png "Ribbon Buttons")
+ 
+![screenshot of diff feature](screenshots/Version2-Diff.png "Diff Feature")
+ 
+
 # JSON Layout Service Shortcuts:
 
 Get a context menu option in Content Editor to quickly view the page layout service data.
