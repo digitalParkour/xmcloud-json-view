@@ -1,6 +1,14 @@
 # xmcloud-json-view
 Sitecore Powershell Extension **(SPE) module** for Menu Shortcut to see **Draft** and **Published JSON** headless content responses. Useful for developers building UI components or troubleshooting content issues.
 
+# Version 2.0
+
+Version 2 adds:
+
+- Better JSON formatting, added line numbers.
+- New diff feature
+- Added Review ribbon buttons to mimic context menu
+
 # JSON Layout Service Shortcuts:
 
 Get a context menu option in Content Editor to quickly view the page layout service data.
