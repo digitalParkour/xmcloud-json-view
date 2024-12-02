@@ -1,7 +1,12 @@
 # xmcloud-json-view
 Sitecore Powershell Extension **(SPE) module** for Menu Shortcut to see **Draft** and **Published JSON** headless content responses. Useful for developers building UI components or troubleshooting content issues.
 
-# Version 2.0
+# Version 2.1
+
+Version 2.1:
+
+  - Adjusted line numbers to only show for diff tool. Otherwise no line numbers for clean copy and paste of json output.
+  - Fixes issue with diff output where PUBLISHED difference was not displayed.
 
 Version 2 adds:
 
