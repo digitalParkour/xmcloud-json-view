@@ -31,7 +31,7 @@ This is great for a quick content check, or as a developer for grabbing the data
 
 # INSTALLATION
 
-This tool can be added without code to any environment.
+This tool can be added without code to any environment with these steps.
 
 **Step 1**: Install the Sitecore Package.
 
@@ -49,7 +49,17 @@ This package adds the following Sitecore Powershell Context Menu Extensions and 
 
 ![screenshot of items installed](screenshots/03_Items-Added.png "Demo")
  
-**Step 2**: Copy and Paste Live Context ID as XM Cloud Variable.
+**Step 2**: Enable Ribbon Buttons
+
+  - Go to Sitecore Powershell ISE: https://{sitecore_CM_content-editor_host}/sitecore/shell/Applications/PowerShell/PowerShellIse
+  - Click Settings -> Rebuild All... (down arrow) -> Sync Library with Content Editor Ribbon
+  ![screenshot of Ribbon Settings](screenshots/Version2-Ribbon-Init.png "Enable Custom Ribbon Buttons")
+    - (You may see errors from other items, ignore)
+  - You should now see these extra Review ribbon buttons
+  ![screenshot of new ribbon](screenshots/Version2-Ribbon.png "Ribbon Buttons")
+
+
+**Step 3**: Configure Published Endpoint
 
 Get your Live Context ID from the Environment Details screen:
 
@@ -63,7 +73,7 @@ Then define the variable: **PublishedJSON_ContextID**
  
 BTW, I searched the existing system ENV vars and Sitecore config, but didn’t see that value anywhere, so adding it manually was the next best thing.
 
-**Step 3**: Redeploy XM Cloud App (to load new env var)
+**Step 4**: Redeploy XM Cloud App (to load new env var)
  
 This will redeploy the current build to apply the new variable.
 
